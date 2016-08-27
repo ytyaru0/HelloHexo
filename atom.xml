@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hello Hexo !!</title>
+  
+  <link href="/HelloHexo/atom.xml" rel="self"/>
+  
+  <link href="http://ytyaru0.github.io/HelloHexo/"/>
+  <updated>2016-08-27T07:58:15.406Z</updated>
+  <id>http://ytyaru0.github.io/HelloHexo/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>画像を挿入できるか？</title>
+    <link href="http://ytyaru0.github.io/HelloHexo/2016/08/27/%E7%94%BB%E5%83%8F%E3%82%92%E6%8C%BF%E5%85%A5%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%8B%EF%BC%9F/"/>
+    <id>http://ytyaru0.github.io/HelloHexo/2016/08/27/画像を挿入できるか？/</id>
+    <published>2016-08-27T06:14:53.000Z</published>
+    <updated>2016-08-27T07:58:15.406Z</updated>
+    
+    <content type="html"><![CDATA[<p>画像を挿入できるか試してみた。</p>
+<a id="more"></a>
+<p>以下にコンソール画面の画像が表示されていたら成功。</p>
+<table>
+<thead>
+<tr>
+<th>パターン</th>
+<th>パス</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>path1</td>
+<td>./img.png</td>
+<td></td>
+</tr>
+<tr>
+<td>path2</td>
+<td>./2016/08/27/画像を挿入できるか？/img.png</td>
+<td></td>
+</tr>
+<tr>
+<td>path3</td>
+<td>C:/root/pj/GitHubPages/TestHexoBlog/public/2016/08/27/画像を挿入できるか？/img.png</td>
+<td></td>
+</tr>
+<tr>
+<td>path4</td>
+<td><a href="https://ytyaru0.github.io/HelloHexo/2016/08/27/画像を挿入できるか？/img.png">https://ytyaru0.github.io/HelloHexo/2016/08/27/画像を挿入できるか？/img.png</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img src="./img.png" alt="画像path1"><br><img src="./2016/08/27/画像を挿入できるか？/img.png" alt="画像path2"><br><img src="C:/root/pj/GitHubPages/TestHexoBlog/public/2016/08/27/画像を挿入できるか？/img.png" alt="画像path3"><br><img src="https://ytyaru0.github.io/HelloHexo/2016/08/27/画像を挿入できるか？/img.png" alt="画像path4"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;画像を挿入できるか試してみた。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="やってみる" scheme="http://ytyaru0.github.io/HelloHexo/categories/%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/"/>
+    
+    
+      <category term="hexo" scheme="http://ytyaru0.github.io/HelloHexo/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>日本語でもいけるか？</title>
+    <link href="http://ytyaru0.github.io/HelloHexo/2016/08/27/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7%E3%82%82%E3%81%84%E3%81%91%E3%82%8B%E3%81%8B%EF%BC%9F/"/>
+    <id>http://ytyaru0.github.io/HelloHexo/2016/08/27/日本語でもいけるか？/</id>
+    <published>2016-08-27T05:43:04.000Z</published>
+    <updated>2016-08-27T07:58:01.046Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexoは日本語でも使えるのか試してみる。</p>
+<a id="more"></a>
+<h2 id="やってみた"><a href="#やってみた" class="headerlink" title="やってみた"></a>やってみた</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; hexo new <span class="string">"日本語でもいけるか？"</span></div></pre></td></tr></table></figure>
+<p><code>./source/_posts/日本語でもいけるか？.md</code>ファイルが作成される。</p>
+<p>あとはテキストエディタでMarkdownを書けばいい。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hexoは日本語でも使えるのか試してみる。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="やってみる" scheme="http://ytyaru0.github.io/HelloHexo/categories/%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/"/>
+    
+    
+      <category term="hexo" scheme="http://ytyaru0.github.io/HelloHexo/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://ytyaru0.github.io/HelloHexo/2016/08/26/hello-world/"/>
+    <id>http://ytyaru0.github.io/HelloHexo/2016/08/26/hello-world/</id>
+    <published>2016-08-26T01:30:26.958Z</published>
+    <updated>2016-08-26T01:30:26.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
