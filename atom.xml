@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hello Hexo !!</title>
   <subtitle>Hexoを使ってみる</subtitle>
-  <link href="/HelloHexo//HelloHexo/atom.xml" rel="self"/>
+  <link href="/HelloHexo/atom.xml" rel="self"/>
   <link href="http://pubsubhubbub.appspot.com/" rel="hub"/>
   <link href="http://ytyaru0.github.io/HelloHexo/"/>
   <updated>2016-08-27T07:58:15.406Z</updated>
