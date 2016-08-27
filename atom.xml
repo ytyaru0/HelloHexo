@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hello Hexo !!</title>
-  
+  <subtitle>Hexoを使ってみる</subtitle>
   <link href="/HelloHexo/atom.xml" rel="self"/>
   
   <link href="http://ytyaru0.github.io/HelloHexo/"/>
@@ -9,7 +9,7 @@
   <id>http://ytyaru0.github.io/HelloHexo/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>ytyaru0</name>
     
   </author>
   
